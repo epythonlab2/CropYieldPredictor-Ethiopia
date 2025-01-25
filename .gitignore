@@ -1,0 +1,5 @@
+# Exclude unnecessary files, executable files, directories, etc
+data/
+*.pdf
+.venv/
+README_html.html
