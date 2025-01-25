@@ -1,3 +1,4 @@
+
 # CropYieldPredictor-Ethiopia
 
 - A Flask and FastAPI-based web application to predict crop yields for Ethiopian farmers using weather data and machine learning. Empowering small-scale farmers with data-driven insights for better agricultural outcomes.
@@ -5,6 +6,9 @@
 - An open-source platform leveraging Flask, FastAPI, and regression models to enhance agricultural productivity in Ethiopia.
 - A weather-based crop yield prediction tool for Ethiopian farmers, fostering sustainable agriculture through technology.
 
+## 📦 Project Structure
+
+```
 📦 CropYieldPredictor-Ethiopia
 ├── 📂 api
 │   ├── main.py            # FastAPI app for handling API endpoints
@@ -38,3 +42,12 @@
 ├── .gitignore             # Git ignore file
 ├── README.md              # Main repository README
 ├── LICENSE                # License for the project
+```
+
+## Features in the Structure
+
+1. **Modular API and App Directories**: Separate folders for Flask frontend and FastAPI backend for clean architecture.
+2. **Data Folder**: Organized data storage for raw and processed datasets.
+3. **Models Directory**: Includes training scripts and serialized models.
+4. **Deployment Folder**: Contains files for containerization and deployment, ensuring the app is ready for production.
+5. **Documentation**: Clear and detailed documentation files to guide developers and users.
