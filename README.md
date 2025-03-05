@@ -1,10 +1,16 @@
 
 # CropYieldPredictor-Ethiopia
 
-- A Flask and FastAPI-based web application to predict crop yields for Ethiopian farmers using weather data and machine learning. Empowering small-scale farmers with data-driven insights for better agricultural outcomes.
-- AI-powered crop yield prediction platform for Ethiopian farmers, integrating weather data, machine learning, and accessible web tools.
+- A Flask and FastAPI-based web application to predict crop yields for Ethiopian farmers using rainfall, pesticide use, and available climate data and machine learning. Empowering small-scale farmers with data-driven insights for better agricultural outcomes.
+- AI-powered crop yield prediction platform for Ethiopian farmers, integrating climate data, machine learning, and accessible web tools.
 - An open-source platform leveraging Flask, FastAPI, and regression models to enhance agricultural productivity in Ethiopia.
 - A weather-based crop yield prediction tool for Ethiopian farmers, fostering sustainable agriculture through technology.
+
+Instead of relying on missing World Bank temperature data, we will:
+
+- Use rainfall data from World Bank / FAOSTAT.
+- Include crop yield & pesticide use data from FAOSTAT.
+- If necessary, fetch satellite-based temperature data from ERA5 (a global climate reanalysis dataset).
 
 ## 📦 Project Structure
 
